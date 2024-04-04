@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-04T12:12:23 IST" name="Default suite" finished-at="2024-04-04T12:12:29 IST" duration-ms="5185">
+    <groups>
+    </groups>
+    <test started-at="2024-04-04T12:12:23 IST" name="Default test" finished-at="2024-04-04T12:12:29 IST" duration-ms="5185">
+      <class name="com.qsp.app.TakeSceenShotOfPage">
+        <test-method is-config="true" signature="bm()[pri:0, instance:com.qsp.app.TakeSceenShotOfPage@505fc5a4]" started-at="2024-04-04T12:12:24 IST" name="bm" finished-at="2024-04-04T12:12:25 IST" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="takeScreenShot()[pri:0, instance:com.qsp.app.TakeSceenShotOfPage@505fc5a4]" started-at="2024-04-04T12:12:25 IST" name="takeScreenShot" finished-at="2024-04-04T12:12:29 IST" duration-ms="3529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method is-config="true" signature="am()[pri:0, instance:com.qsp.app.TakeSceenShotOfPage@505fc5a4]" started-at="2024-04-04T12:12:29 IST" name="am" finished-at="2024-04-04T12:12:29 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+      </class> <!-- com.qsp.app.TakeSceenShotOfPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
