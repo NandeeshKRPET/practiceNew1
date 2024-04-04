@@ -10,6 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -45,7 +46,8 @@ public class TakeSceenShotOfPage {
 	 File dest = new File("./Screenshots/amazon-"+newDate+".png");
 	 FileHandler.copy(src, dest);
 	 
-	 
+	 Actions act = new Actions(driver);
+	 act.click().perform();
 	 
   }
 	@AfterMethod
